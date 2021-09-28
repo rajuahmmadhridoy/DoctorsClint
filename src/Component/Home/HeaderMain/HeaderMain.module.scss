@@ -1,0 +1,42 @@
+@import'../../Styles/Colors.scss';
+@import'../../Styles/Font.scss';
+
+// $gray
+// $lightGray
+// $black
+// $blue
+// $white
+// $regular-font-size:15px;
+// $large-font-size: 17px;
+// $extra-large-font-size: 25px;
+
+
+
+
+.headerContent {
+    padding-right: 100px;
+    text-align: left;
+}
+.headerContent > h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #3F4D61;
+    float: left;
+    margin-bottom: 10px;
+}
+.headerContent > p {
+    font-size:$regular-font-size;
+    color:$gray;
+}
+
+.headerContent button {
+    background: $blue;
+    float: left;
+    width: 162px;
+    height: 42px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}

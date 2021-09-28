@@ -1,0 +1,23 @@
+@import'../../Styles/Colors.scss';
+@import'../../Styles/Font.scss';
+
+// $gray
+// $lightGray
+// $black
+// $blue
+// $white
+// $regular-font-size:15px;
+// $large-font-size: 17px;
+// $extra-large-font-size: 25px;
+
+.infoCardCon{
+    // width: 293px;
+    color: #fff;
+    height: 100px;
+}
+.info-blue{
+    background: $blue;
+}
+.info-black{
+    background: $black;
+}

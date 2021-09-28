@@ -1,0 +1,28 @@
+@import'../../Styles/Colors.scss';
+@import'../../Styles/Font.scss';
+
+// $gray
+// $lightGray
+// $black
+// $blue
+// $white
+// $regular-font-size:15px;
+// $large-font-size: 17px;
+// $extra-large-font-size: 25px;
+
+.servicesContainer{
+    margin-top: 100px;
+    width: 930px;
+}
+.servicesContainer h4{
+    font-size: $large-font-size;
+    color:$blue;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.servicesContainer h3{
+    font-size: $extra-large-font-size;
+    margin-bottom: 60px;
+    color: $black;
+    font-weight: 500;
+}

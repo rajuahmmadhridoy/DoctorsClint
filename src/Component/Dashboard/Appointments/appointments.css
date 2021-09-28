@@ -1,0 +1,13 @@
+.appointmentsCal {
+    margin-top: 15px;
+    box-shadow: 2px 3px 10px grey;
+    padding: 30px 26px;
+    height: 600px;
+    width: 500px;
+    margin-left: 20px;
+    background: #fff;
+}
+.appointmentsCal h3 {
+    text-align: left;
+    margin-bottom: 20px;
+}

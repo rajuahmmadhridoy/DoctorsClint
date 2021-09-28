@@ -1,0 +1,99 @@
+@import "../../Styles/Colors.scss";
+@import "../../Styles/Font.scss";
+
+// $gray
+// $lightGray
+// $black
+// $blue
+// $white
+// $regular-font-size:15px;
+// $large-font-size: 17px;
+// $extra-large-font-size: 25px;
+// $fontWeight1st:400;
+// $fontWeight2st:500;
+// $fontWeight3st:600;
+// $fontWeight4st:700;
+
+
+.blogsContent {
+    box-shadow: 3px 5px 10px grey;
+    height: 288px;
+    padding: 28px;
+    border-radius: 3px;
+}
+.blogsPersonImg img {
+  height: 50px;
+  margin-right: 20px;
+}
+.blogsPersonTitlerInfo h4{
+  font-size: $regular-font-size;
+  color: $black;
+  font-weight: $fontWeight4st;
+}
+.blogsPersonTitlerInfo p{
+    font-size:$regular-font-size;
+    color: $gray;
+    font-weight: $fontWeight2st;
+}
+
+.blogsMainContent{
+    text-align: left;
+    margin-top: 15px;
+}
+.blogsMainContent h4 {
+    color: #3F4D61;
+    font-size: 17px;
+    font-weight: 700;
+    padding-right: 29px;
+}
+.blogsMainContent p{}
+
+
+
+
+.blogsContainer{
+    position: relative;
+}
+.blogsContentHover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    color: #fff;
+    z-index: 10;
+    display: none;
+}
+.blogsContainer::after{
+    content: '';
+    position: absolute;
+    background-image: url(../../../images/HoverBg.png);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: none;
+    
+}
+.blogsContainer::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: $blue;
+    opacity: .5;
+    z-index: 5;
+    display: none;
+}
+.blogsContainer:hover .blogsContainer::before{
+    display: block;
+}
+.blogsContainer:hover .blogsContent{
+    display: none;
+}

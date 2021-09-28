@@ -1,0 +1,50 @@
+@import "../../Styles/Colors.scss";
+@import "../../Styles/Font.scss";
+
+// $gray
+// $lightGray
+// $black
+// $blue
+// $white
+// $regular-font-size:15px;
+// $large-font-size: 17px;
+// $extra-large-font-size: 25px;
+
+.bookingCardInner {
+  box-shadow: 3px 5px 10px grey;
+  height: 220px;
+  padding: 25px;
+  border-radius: 2px;
+  margin-bottom: 44px;
+}
+.bookingCardInner h3 {
+    color: #1CC7C1;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.bookingCardInner h4 {
+  color: $black;
+  font-size: $large-font-size;
+  margin: 8px 0px;
+  font-weight: $fontWeight4st;
+}
+
+.bookingCardInner p {
+  font-size: 13px;
+  color:$gray;
+  font-weight: $fontWeight3st;
+}
+.bookingCardInner button {
+    background-image: linear-gradient(to right, #19D3B0, #0FCFE9);
+    width: 235px;
+    height: 42px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    margin-top: 12px;
+}

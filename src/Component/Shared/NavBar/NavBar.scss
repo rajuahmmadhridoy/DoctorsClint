@@ -1,0 +1,19 @@
+@import'../../Styles/Colors.scss';
+@import'../../Styles/Font.scss';
+
+// $gray
+// $lightGray
+// $black
+// $blue
+// $white
+
+.navItems {
+    margin: 0px 24px;
+    color: $blue !important;
+    font-size: $regular-font-size;
+}
+
+.navMenu a:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}

@@ -1,0 +1,25 @@
+
+@import'../../Styles/Colors.scss';
+@import'../../Styles/Font.scss';
+
+// $gray
+// $lightGray
+// $black
+// $blue
+// $white
+// $regular-font-size:15px;
+// $large-font-size: 17px;
+// $extra-large-font-size: 25px;
+.serviceDisThumb img {
+    height: 45px;
+    margin-bottom: 15px;
+}
+.servicesDisContent h5{
+    color:$black;
+    font-size: $large-font-size;
+    font-weight: 500;
+}
+.servicesDisContent p{
+    color: $lightGray;
+    font-size:$regular-font-size ;
+}

@@ -1,0 +1,23 @@
+.dashboardHeading{
+    text-align: left;
+}
+.headerStatus {
+    display: flex;
+    width: 1050px;
+}
+.singleStatus{
+    height: 99px;
+    border-radius: 5px;
+}
+.pink{
+    background: #F1536E;
+}
+.blue{
+    background: #3DA5F4;
+}
+.green{
+    background: #00C689;
+}
+.yellow{
+    background: #FDA006;
+}

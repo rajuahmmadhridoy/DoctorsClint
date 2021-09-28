@@ -1,0 +1,46 @@
+
+@import'../../Styles/Colors.scss';
+@import'../../Styles/Font.scss';
+
+// $gray
+// $lightGray
+// $black
+// $blue
+// $white
+// $regular-font-size:15px;
+// $large-font-size: 17px;
+// $extra-large-font-size: 25px;
+// $fontWeight1st:400;
+// $fontWeight2st:500;
+// $fontWeight3st:600;
+// $fontWeight4st:700;
+
+.testimonialPersonContractInfo{
+    text-align: left;
+}
+.testimonialsContainer {
+    box-shadow: 2px 5px 10px $gray;
+    padding: 20px;
+    border-radius: 2px;
+}
+.testimonialsContainer p {
+    font-size:$regular-font-size;
+    color: $black;
+}
+.testimonialsContainer p {
+    font-size:$regular-font-size;
+    color: $gray;
+    font-weight: $fontWeight2st;
+}
+.testimonialsContainer h5 {
+    font-size:$large-font-size;
+    color: $blue;
+    font-weight: $fontWeight3st;
+}
+.testimonialPersonData{
+    margin-top: 50px;
+}
+.testimonialPersonThumb img {
+    height: 50px;
+    margin-right: 20px;
+}

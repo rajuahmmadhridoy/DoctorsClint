@@ -1,0 +1,7 @@
+.list-unstyled {
+    text-align: left;
+}
+.list-unstyled li a {
+    text-decoration: none;
+    font-weight: 400;
+}

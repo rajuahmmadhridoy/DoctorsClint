@@ -1,0 +1,22 @@
+.ReactModal__Content.ReactModal__Content--after-open {
+    width: 630px;
+    padding: 30px !important;
+    height: 400px;
+}
+form.FormContainer input {
+    padding: 10px 45px;
+    margin-bottom: 11px;
+}
+input.subBtn {
+    float: right;
+    background-image: linear-gradient(to right, #19D3B0, #0FCFE9);
+    width: 175px;
+    height: 42px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    margin-top: 12px;
+}

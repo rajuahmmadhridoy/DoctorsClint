@@ -1,0 +1,22 @@
+.headerContainer {
+    background-image: url(../../../images/Bg.png);
+    width: 100%;
+    height: 825px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -0;
+}
+
+.headerContainer{
+    position: relative;
+}
+.headerContainer::after {
+    content: '';
+    position: absolute;
+    left: 67%;
+    right: 0;
+    top: 0;
+    bottom: 100px;
+    background: #3A4256;
+    z-index: -1;
+}

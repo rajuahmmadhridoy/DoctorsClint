@@ -1,0 +1,64 @@
+@import "../../Styles/Colors.scss";
+@import "../../Styles/Font.scss";
+
+// $gray
+// $lightGray
+// $black
+// $blue
+// $white
+// $regular-font-size:15px;
+// $large-font-size: 17px;
+// $extra-large-font-size: 25px;
+// $fontWeight1st:400;
+// $fontWeight2st:500;
+// $fontWeight3st:600;
+// $fontWeight4st:700;
+
+
+#contactContainer {
+    position: relative;
+    background: linear-gradient(#42495ce8, #42495C),url(../../../images/Bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 100vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactContent h4 {
+    color: $blue;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.contactContent h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.contactContent input {
+    width: 400px;
+    height: 45px;
+    margin-bottom: 16px;
+    outline: none;
+    padding: 0 30px;
+}
+.contactContent textarea {
+    width: 400px;
+    height: 100px;
+    padding: 5px 30px;
+    outline: none;
+}
+.contactContent input[type="submit"] {
+    margin-top: 30px;
+    background: $blue;
+    width: 162px;
+    height: 42px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}

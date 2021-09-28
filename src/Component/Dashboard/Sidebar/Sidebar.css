@@ -1,0 +1,31 @@
+.SilebarContainer {
+    position: relative;
+    background-image: linear-gradient(to top, #19D3B0, #0FCFE9);
+    height: 100vh;
+}
+.SilebarContainer:after {
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    left: -1000px;
+    background-image: linear-gradient(to top, #19D3B0, #0FCFE9);
+}
+.SilebarContainer ul {
+    text-align: left;
+    padding-top: 40px;
+}
+.SilebarContainer ul li {
+    list-style: none;
+    padding: 20px 10px;
+}
+.SilebarContainer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.SilebarContainer ul li a span {
+    padding-left: 10px;
+}

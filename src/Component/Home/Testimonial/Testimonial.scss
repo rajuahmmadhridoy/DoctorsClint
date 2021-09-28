@@ -1,0 +1,37 @@
+
+@import'../../Styles/Colors.scss';
+@import'../../Styles/Font.scss';
+
+// $gray
+// $lightGray
+// $black
+// $blue
+// $white
+// $regular-font-size:15px;
+// $large-font-size: 17px;
+// $extra-large-font-size: 25px;
+// $fontWeight1st:400;
+// $fontWeight2st:500;
+// $fontWeight3st:600;
+// $fontWeight4st:700;
+.testimonialContainer{
+    width: 950px;
+    margin-top: 100px;
+}
+.testimonialHeader{
+}
+.testimonialheaderContent{
+    text-align: left;
+}
+.testimonialheaderContent h4{
+    color: $blue;
+    font-size:$large-font-size;
+    font-weight:$fontWeight2st;
+    margin-bottom: 15px;
+}
+.testimonialheaderContent h3{
+    color: $black;
+    font-size:$extra-large-font-size;
+    font-weight:$fontWeight3st;
+    margin-bottom: 45px;
+}

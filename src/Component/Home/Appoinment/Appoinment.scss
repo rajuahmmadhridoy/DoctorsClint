@@ -1,0 +1,61 @@
+@import'../../Styles/Colors.scss';
+@import'../../Styles/Font.scss';
+
+// $gray
+// $lightGray
+// $black
+// $blue
+// $white
+// $regular-font-size:15px;
+// $large-font-size: 17px;
+// $extra-large-font-size: 25px;
+
+
+.contentInner {
+    background: linear-gradient(#42495ce8, #42495C), url(../../../images/chairBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 1000px;
+    height: 380px;
+    margin-top: 150px;
+}
+.container.contentInner img {
+    transform: translateY(-170px);
+    height: 550px;
+    width: 120%;
+}
+.appointmentContent{
+    text-align: left;
+}
+.appointmentContent h5 {
+    margin-top: 65px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+.appointmentContent h3 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    padding-right: 178px;
+}
+.appointmentContent p {
+    color: #fff;
+    font-size: 15px;
+    padding-right: 23px;
+}
+.appointmentContent button {
+    margin-top: 30px;
+    background: $blue;
+    float: left;
+    width: 162px;
+    height: 42px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+

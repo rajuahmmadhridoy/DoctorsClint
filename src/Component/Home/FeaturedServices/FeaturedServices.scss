@@ -1,0 +1,45 @@
+
+@import'../../Styles/Colors.scss';
+@import'../../Styles/Font.scss';
+
+// $gray
+// $lightGray
+// $black
+// $blue
+// $white
+// $regular-font-size:15px;
+// $large-font-size: 17px;
+// $extra-large-font-size: 25px;
+
+
+.featuredServicesCon {
+  margin-top: 100px;
+  width: 950px;
+}
+.featuredServiceContent {
+  text-align: left;
+  padding-right: 120px;
+}
+.featuredServiceContent h3 {
+  font-size: $extra-large-font-size;
+  font-weight: 600;
+  color: $black;
+  margin-bottom: 30px;
+}
+.featuredServiceContent p {
+  font-size: $regular-font-size;
+  font-weight: 400;
+  color: $gray;
+  margin-bottom: 30px;
+}
+.featuredServiceContent button {
+    background: $blue;
+    float: left;
+    width: 162px;
+    height: 42px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
